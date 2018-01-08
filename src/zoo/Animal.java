@@ -26,7 +26,7 @@ public abstract class Animal {
 	/**
 	 * @param especie the especie to set
 	 */
-	public void setEspecie(String especie) {
+	private void setEspecie(String especie) {
 		this.especie = especie;
 	}
 
