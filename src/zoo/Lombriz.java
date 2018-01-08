@@ -24,12 +24,11 @@ public class Lombriz extends Animal {
 	 * @see Animales.Animal#mostrar()
 	 */
 	public void mostrar() {
-		super.mostrar();
 		System.out.print("mido " + getLongitud() + " cm y ");
 		if (bajoTierra) {
-			System.out.print("estoy bajo tierra");
+			System.out.println("estoy bajo tierra");
 		} else {
-			System.out.print("estoy en la superficie");
+			System.out.println("estoy en la superficie");
 		}
 	}
 
